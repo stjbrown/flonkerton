@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://flonkerton.spinningbrain.io/</loc>
+    <lastmod>2022-08-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://flonkerton.spinningbrain.io/sensitive-data/pii/</loc>
+    <lastmod>2022-08-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://flonkerton.spinningbrain.io/sensitive-data/sesitive-data/</loc>
+    <lastmod>2022-08-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://flonkerton.spinningbrain.io/sensitive-data/</loc>
+    <lastmod>2022-08-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://flonkerton.spinningbrain.io/upload-data/</loc>
+    <lastmod>2022-08-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://flonkerton.spinningbrain.io/success/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>https://flonkerton.spinningbrain.io/categories/</loc>
+  </url><url>
+    <loc>https://flonkerton.spinningbrain.io/tags/</loc>
+  </url><url>
+    <loc>https://flonkerton.spinningbrain.io/test/</loc>
+  </url>
+</urlset>
