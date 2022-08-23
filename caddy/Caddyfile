@@ -1,0 +1,35 @@
+flonkerton.spinningbrain.io:443 {
+
+	handle /uploads* {
+		uri strip_prefix /uploads
+		root * /uploads
+		file_server {
+			browse
+			hide .DS_Store
+		}
+	}
+	
+	handle /api* {
+		reverse_proxy flonketon-api:4500 {
+			transport http {
+				tls_insecure_skip_verify
+			}
+		}
+		
+	}
+
+	handle * {
+		root * /public
+		file_server
+	}
+
+	log {
+		output file /caddylogs/site.log
+		format json
+	}
+
+	tls internal
+}	
+
+
+

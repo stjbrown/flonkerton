@@ -1,25 +1,22 @@
 ---
-title: "upload"
+title: "Upload Data"
 date: 2022-08-19
+lastmod: 2022-08-23
 draft: true
 ---
+Use this page to test data protection controls. Activities that can be tested here include form post, upload and even download(From the browse section).
 
+## Form Post Test
+This form will post data to the flonkerton api and write it to a file using the given name.
 
-## Past Data to Upload
 ### {{< textDataForm action="/api/formpost"  >}}
+<br><br>
 
-## Test File Upload(s)
-<!--- 
-{{< fileUploadForm action="https://getform.io/f/af3ef7cc-361e-49a9-855d-8e20817f9543"  >}} 
--->
+## File Upload Test
+Select a single or multiple files to upload to flonkerton. If you controls are working these files will not appear below.  
+
 ### {{< fileUploadForm action="/api/fileupload"  >}}
 
-
-<!--- 
-<iframe src="https://localhost:8443"></iframe>
-
-<iframe width="100%" height="150" name="iframe" src="https://www.example.com"></iframe>
--->
   
 ## [Uploaded Files](/uploads)
 {{< iframe "/uploads" >}}

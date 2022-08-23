@@ -1,0 +1,32 @@
+version: "3.7"
+
+networks:
+  flonkerton:
+    name: flonkerton
+
+services:
+  caddy: 
+    image: caddy:latest
+    container_name: caddy
+    restart: always
+    volumes:
+        - ./caddy/Caddyfile:/etc/caddy/Caddyfile
+        - ./api/uploads:/uploads
+        - ./public:/public
+        - ./caddy/logs/:/caddylogs
+    ports:
+        - "80:80"
+        - "443:443"
+    networks:
+      - flonkerton
+  flonkerton:
+    image: stjbrown/flonkerton-api:0.1.0
+    container_name: flonkerton-api
+    restart: always
+    volumes:
+        - ./api/uploads:/uploads
+        - ./api/certs:/flonkerton/certs
+    ports:
+        - "4500:4500"
+    networks:
+      - flonkerton

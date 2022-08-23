@@ -29,30 +29,16 @@
     </item>
     
     <item>
-      <title>upload</title>
+      <title>Upload Data</title>
       <link>https://flonkerton.spinningbrain.io/upload-data/</link>
       <pubDate>Fri, 19 Aug 2022 00:00:00 +0000</pubDate>
       
       <guid>https://flonkerton.spinningbrain.io/upload-data/</guid>
-      <description>Past Data to Upload Test File Upload(s) Uploaded Files </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://flonkerton.spinningbrain.io/success/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://flonkerton.spinningbrain.io/success/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Your title</title>
-      <link>https://flonkerton.spinningbrain.io/test/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://flonkerton.spinningbrain.io/test/</guid>
-      <description>Your description, you can add more fields below of course...</description>
+      <description>Use this page to test data protection controls. Activities that can be tested here include form post, upload and even download(From the browse section).
+Form Post Test This form will post data to the flonkerton api and write it to a file using the given name.
+File name:
+Data:
+File Upload Test Select a single or multiple files to upload to flonkerton. If you controls are working these files will not appear below.</description>
     </item>
     
   </channel>
