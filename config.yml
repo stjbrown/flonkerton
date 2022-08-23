@@ -1,4 +1,4 @@
-baseURL: "https://flonkerton.spinningbrain.io/"
+baseURL: ""
 title: flonkerton
 paginate: 5
 theme: PaperMod
@@ -19,7 +19,7 @@ params:
   title: flonkerton
   description: "flonkerton, a demo site for testing DLP and Malware."
   keywords: [Blog, Portfolio, PaperMod]
-  author: Me
+  # author: Me
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -111,7 +111,7 @@ params:
     distance: 1000
     threshold: 0.4
     minMatchCharLength: 0
-    keys: ["title", "permalink", "summary", "content"]
+    keys: ["title", "relpermalink", "summary", "content"]
 menu:
   main:
     #- identifier: categories
