@@ -1,4 +1,4 @@
-flonkerton.spinningbrain.io:443 {
+:443 {
 
 	handle /uploads* {
 		uri strip_prefix /uploads
@@ -28,7 +28,9 @@ flonkerton.spinningbrain.io:443 {
 		format json
 	}
 
-	tls internal
+	tls internal {
+		on_demand
+	}
 }	
 
 

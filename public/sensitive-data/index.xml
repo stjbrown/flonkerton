@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Sensitive-data on flonkerton</title>
-    <link>https://flonkerton.spinningbrain.io/sensitive-data/</link>
+    <link>/sensitive-data/</link>
     <description>Recent content in Sensitive-data on flonkerton</description>
     <image>
       <url>https://flonkerton.spinningbrain.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://flonkerton.spinningbrain.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 19 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://flonkerton.spinningbrain.io/sensitive-data/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="/sensitive-data/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Personal Identifiable Information</title>
-      <link>https://flonkerton.spinningbrain.io/sensitive-data/pii/</link>
+      <link>/sensitive-data/pii/</link>
       <pubDate>Fri, 19 Aug 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://flonkerton.spinningbrain.io/sensitive-data/pii/</guid>
+      <guid>/sensitive-data/pii/</guid>
       <description>Personal identifiable information or PII is a class of sensitive data that includes peoples personal information such as name, ssn, address, etc. You can test a providers ability to block downloads of PII by attempting to download one of the files below. In order to test the ability to block uploads you can copy and paste the table below into the upload section of flonkerton, or upload a sensitive file to the same area.</description>
     </item>
     
     <item>
       <title>sensitive-data</title>
-      <link>https://flonkerton.spinningbrain.io/sensitive-data/sesitive-data/</link>
+      <link>/sensitive-data/sesitive-data/</link>
       <pubDate>Fri, 19 Aug 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://flonkerton.spinningbrain.io/sensitive-data/sesitive-data/</guid>
+      <guid>/sensitive-data/sesitive-data/</guid>
       <description>Sensitive data is confidential or important information that an organization needs to protect. One of the primary reasons to use use flonkerton is to provide pseudo sensitive data that can be used for testing data protection solutions.</description>
     </item>
     
