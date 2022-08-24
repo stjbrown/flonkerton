@@ -20,7 +20,7 @@ services:
     networks:
       - flonkerton
   flonkerton:
-    image: stjbrown/flonkerton-api:0.1.0
+    image: stjbrown/flonkerton-api:0.1.1
     container_name: flonkerton-api
     restart: always
     volumes:

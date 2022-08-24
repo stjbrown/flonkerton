@@ -10,7 +10,7 @@
 	}
 	
 	handle /api* {
-		reverse_proxy flonketon-api:4500 {
+		reverse_proxy flonkerton-api:4500 {
 			transport http {
 				tls_insecure_skip_verify
 			}

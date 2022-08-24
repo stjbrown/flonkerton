@@ -52,7 +52,7 @@ func formHandler(w http.ResponseWriter, r *http.Request) {
 	fmt.Println(data)
 
 	//Create file
-	f, err := os.Create(fmt.Sprintf("./uploads/%s", filename))
+	f, err := os.Create(fmt.Sprintf("/uploads/%s", filename))
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusBadRequest)
 		return
@@ -128,14 +128,14 @@ func uploadHandler(w http.ResponseWriter, r *http.Request) {
 			return
 		}
 
-		err = os.MkdirAll("./uploads", os.ModePerm)
+		err = os.MkdirAll("/uploads", os.ModePerm)
 		if err != nil {
 			http.Error(w, err.Error(), http.StatusInternalServerError)
 			return
 		}
 
 		//Create file
-		f, err := os.Create(fmt.Sprintf("./uploads/%s", filename))
+		f, err := os.Create(fmt.Sprintf("/uploads/%s", filename))
 		if err != nil {
 			http.Error(w, err.Error(), http.StatusBadRequest)
 			return
