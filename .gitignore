@@ -33,5 +33,8 @@ override.tf.json
 .terraformrc
 terraform.rc
 
+
 *.pem
-*.DS_DStore
+.DS_Store
+.hugo_build.lock
+,vscode
