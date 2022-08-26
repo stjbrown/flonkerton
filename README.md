@@ -13,19 +13,19 @@ Before installing you must have the following requirements installed.
 
 
 ## Install
-1.) Clone this repo
+1. Clone this repo
 ```sh
 git clone https://github.com/stjbrown/flonkerton.git
 ```
-1.) Navigate to flonkerton directory
+2. Navigate to flonkerton directory
 ```sh
 cd flonkerton
 ```
-1.) Modify the `config.yml` file so that the base url contains the domain you will be using for flonkerton.
+3. Modify the `config.yml` file so that the base url contains the domain you will be using for flonkerton.
 
 `baseURL: "flonkerton.example.com"`
-1.) hugo -D
-1.) From the flonkerton directory start the docker immages using docker compose.
+4. hugo -D
+5. From the flonkerton directory start the docker immages using docker compose.
 ```sh
 docker compose ud -d
 ```
