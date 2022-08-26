@@ -24,7 +24,9 @@ cd flonkerton
 3. Modify the `config.yml` file so that the base url contains the domain you will be using for flonkerton.
 
 `baseURL: "flonkerton.example.com"`
+
 4. hugo -D
+
 5. From the flonkerton directory start the docker immages using docker compose.
 ```sh
 docker compose ud -d
