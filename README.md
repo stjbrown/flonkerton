@@ -29,5 +29,5 @@ cd flonkerton
 
 5. From the flonkerton directory start the docker immages using docker compose.
 ```sh
-docker compose ud -d
+docker compose up -d
 ```
