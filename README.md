@@ -25,7 +25,10 @@ cd flonkerton
 
 `baseURL: "flonkerton.example.com"`
 
-4. hugo -D
+4. Update hugo deployment 
+```sh
+hugo -D
+```
 
 5. From the flonkerton directory start the docker immages using docker compose.
 ```sh
