@@ -8,8 +8,8 @@ Before installing you must have the following requirements installed.
 - Ubuntu or Mac (These have been tested, but others may work as well.)
 - [hugo] (https://gohugo.io/getting-started/installing/)
 - [Docker] (https://docs.docker.com/engine/install/)
-- [Docker Compose*] (https://docs.docker.com/compose/install/)
-* Docker Compose is included in many docker instalations, so you may not need to add this separately.
+- [Docker Compose***] (https://docs.docker.com/compose/install/)
+    *** Docker Compose is included in many docker installations, so you may not need to add this separately.
 
 
 ## Install
