@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Sensitive-data on flonkerton</title>
     <link>/sensitive-data/</link>
     <description>Recent content in Sensitive-data on flonkerton</description>
+    <image>
+      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 23 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="/sensitive-data/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,8 +16,10 @@
       <pubDate>Fri, 23 Sep 2022 00:00:00 +0000</pubDate>
       
       <guid>/sensitive-data/pci/</guid>
-      <description>PCI DSS
-Downloadable Files Raw Data </description>
+      <description>The Payment Card Industry Data Security Standard (PCI DSS) is an information security standard for organizations that handle branded credit cards from the major card schemes.
+The PCI Standard is mandated by the card brands but administered by the Payment Card Industry Security Standards Council. The standard was created to increase controls around cardholder data to reduce credit card fraud.
+Downloadable Files Download DOCX
+Raw Data | First | Init | Last | CCType | CCNumber | CVV2 | CCExpires | | -------- | ---- | --------- | ---------- | ---------------- | ---- | --------- | | Jeremy | A | Pratt | Visa | 4539025260897320 | 911 | Mar-21 | | Aidan | C | Bronner | Visa | 4916554202039830 | 239 | Aug-20 | | Olivia | R | FitzRoy | MasterCard | 5583452178660840 | 216 | Nov-21 | | Jett | E | Lay | MasterCard | 5293247400588170 | 869 | Feb-19 | | Jonathan | A | Lilly | Visa | 4929854759670190 | 168 | Nov-21 | | Timothy | K | Provan | Visa | 4916337744239220 | 307 | Oct-20 | | Beau | L | Ida | Visa | 4532293561523070 | 15 | Aug-19 | | Declan | A | Wilkie | Visa | 4716398572713300 | 734 | Feb-18 | | Victoria | J | Beckham | MasterCard | 5205328900255160 | 617 | Feb-19 | | Isaac | E | Loane | MasterCard | 5145351829017720 | 622 | Dec-21 | | David | A | Coxen | Visa | 4716526018529860 | 22 | Sep-21 | | Anna | J | Bayly | MasterCard | 5427788807344000 | 841 | Jul-21 | | Bailey | G | Lowrie | MasterCard | 5270674476120940 | 388 | Dec-18 | | Ashton | K | McConnell | MasterCard | 5275486835665230 | 629 | Jan-22 | | Jessica | T | Wekey | MasterCard | 5450946811409030 | 438 | Jan-19 | | Jack | S | McEachern | MasterCard | 5504912109656340 | 838 | Sep-20 | | Darcy | B | Ah Ket | MasterCard | 5189660651732470 | 663 | Dec-22 | </description>
     </item>
     
     <item>
