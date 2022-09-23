@@ -3,15 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/</loc>
-    <lastmod>2022-08-19T00:00:00+00:00</lastmod>
+    <lastmod>2022-09-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/sensitive-data/pci/</loc>
+    <lastmod>2022-09-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/sensitive-data/</loc>
+    <lastmod>2022-09-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/sensitive-data/pii/</loc>
     <lastmod>2022-08-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/sensitive-data/sesitive-data/</loc>
-    <lastmod>2022-08-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/sensitive-data/</loc>
     <lastmod>2022-08-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/upload-data/</loc>
