@@ -1,6 +1,7 @@
 ---
 title: "Personal Identifiable Information"
 date: 2022-08-19
+lastmod: 2022-09-23
 draft: false
 ---
 Personal identifiable information or PII is a class of sensitive data that includes peoples personal information such as name, ssn, address, etc. You can test a providers ability to block downloads of PII by attempting to download one of the files below. In order to test the ability to block uploads you can copy and paste the table below into the upload section of flonkerton, or upload a sensitive file to the same area.
